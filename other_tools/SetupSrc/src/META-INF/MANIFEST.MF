@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: libs/commons-io-2.4.jar
+Main-Class: io.github.shadowchild.hrsetup.Main
+
