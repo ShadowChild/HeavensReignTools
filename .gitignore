@@ -13,3 +13,7 @@ hs_err_pid*
 *.properties
 *.iml
 *.pom
+
+# Explicit Exclusions #
+!/other_tools/Setup.jar
+!/other_tools/libs/commons-io-2.4.jar
