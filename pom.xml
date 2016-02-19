@@ -57,6 +57,12 @@
                 <version>2.6</version>
                 <configuration>
                     <outputDirectory>${basedir}/build</outputDirectory>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>libs/</classpathPrefix>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
